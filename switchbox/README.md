@@ -1,6 +1,6 @@
 # Switchbox
 
-Mechanical switchbox to select on of two 6-pin inputs to be forwarded to one Analog RGBtoHDMI.
+Mechanical switchbox to select one of two 6-pin inputs to be forwarded to one Analog RGBtoHDMI.
 
 Note that only the 3 color signals and the csync is switched. The GND and +5V pins are always 
 connected through. Therefore do not connect two cables that provide their +5V to the RGBtoHDMI 
