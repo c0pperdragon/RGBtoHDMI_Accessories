@@ -1,0 +1,213 @@
+(footprint "OS202011MS2QN1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "momentary / push-push button, h=13mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf")
+	(tags "tact sw push PVA2 DPDT")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "f6ee98b5-4773-4eeb-a825-33c1705abace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OS202011MS2QN1"
+		(at 0 4.6 0)
+		(layer "F.Fab")
+		(uuid "5994a946-119f-4db4-aafe-00ae73b5b800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.1 -0.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f847b47f-6b24-4df1-907e-1aa334bf150b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1 -0.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4e119c8-fc77-4621-8ae6-56ea324b4336")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 -0.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61d6dfc2-724a-4500-a0f8-4ad2b0cc907d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.3 -2)
+		(end -4.3 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16ded395-a862-4198-b3af-ba8c7fb298bb")
+	)
+	(fp_line
+		(start -4.3 3.4)
+		(end -4.3 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab22a762-8178-47fd-90a8-2035095375fe")
+	)
+	(fp_line
+		(start 4.3 -3.4)
+		(end -4.3 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1105432-6a2f-45d9-8a08-47401d087cf4")
+	)
+	(fp_line
+		(start 4.3 -2)
+		(end 4.3 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "851ab59d-1fd7-45c7-a775-29797327cafc")
+	)
+	(fp_line
+		(start 4.3 3.4)
+		(end -4.3 3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "975b065a-4fee-4d11-9f2f-b1d40a3629cb")
+	)
+	(fp_line
+		(start 4.3 3.4)
+		(end 4.3 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "829d30af-0a0e-44f5-8085-b572de3a5bac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.1 0)
+		(layer "F.Fab")
+		(uuid "be0953c0-632d-4dd2-85e9-4d41239f22d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -4.1 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be45bfc7-e636-43b8-82cb-0dd48e052890")
+	)
+	(pad "" thru_hole circle
+		(at 4.1 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c336154-5321-4aa1-ba01-c3f64938cc6b")
+	)
+	(pad "1" thru_hole circle
+		(at -2 -1.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5a1761e-3391-4e74-90c9-947fd66e1fc6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3dd05e0a-6fe4-4de6-81df-97b26be40fb4")
+	)
+	(pad "3" thru_hole circle
+		(at 2 -1.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "681bd495-c396-44ce-92bd-4b397cd48c04")
+	)
+	(pad "4" thru_hole circle
+		(at -2 1.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b680b4a7-6cb0-40b5-a7ec-a02910a0daa4")
+	)
+	(pad "5" thru_hole circle
+		(at 0 1.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcb90f38-f221-4e19-8961-a534ced69fbc")
+	)
+	(pad "6" thru_hole circle
+		(at 2 1.25)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1c7b1f5-f895-4192-9484-2357882c73e0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Push_2P2T_Toggle_CK_PVA2OAH5xxxxxxV2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,84 @@
+(footprint "TestPoint_Pad_1.5x2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 1.5mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "REF**"
+		(at 0.1 -2 0)
+		(layer "F.SilkS")
+		(uuid "309955ad-407b-4550-a766-e24e6f71dc5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Pad_1.5x2.5mm"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "85269ea4-e973-4dac-88ec-7409aae35951")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f6508de-d3ce-4750-acdf-e2b2d8b3115a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee099a86-d4e0-4d15-a708-b70ed39a21aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c29be6d-57fe-47e9-a232-2d758152d72e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "373baa6a-f16f-4d43-8e06-d169e61f6864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e5642a5f-309a-4ecd-bf25-2a009f38b2c6")
+	)
+)

@@ -1,0 +1,5288 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5509fd3c-b8a5-4769-a626-e18d5b4369b8")
+	(paper "A4")
+	(title_block
+		(title "DigitalViaAnalog")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "74xGxx:74LVC1G17"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "74LVC1G17"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Schmitt LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G17_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G17_1_1"
+				(pin no_connect line
+					(at -7.62 5.08 180)
+					(length 5.08) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74xGxx:74LVC1G86"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G86"
+				(at 7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate XOR LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G86_0_1"
+				(arc
+					(start -8.89 -5.08)
+					(mid -6.7858 0)
+					(end -8.89 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -5.08)
+					(mid -5.838 0)
+					(end -7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.08)
+					(mid 3.1986 -3.2054)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.2238 3.2304)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74LVC1G86_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:MIC5504-3.3YM5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC5504-3.3YM5"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Micrel LDO voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIC5504-3.3YM5_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC5504-3.3YM5_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 88.9 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d77201-1d1b-4ba0-bfd4-0afe41ceea4f")
+	)
+	(junction
+		(at 88.9 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eaded8c-059a-4c53-8675-81076e09ff1d")
+	)
+	(junction
+		(at 88.9 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4605b84e-b959-4ccf-b5e5-87810f77f686")
+	)
+	(junction
+		(at 204.47 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "524c16ce-7793-4d42-81c2-d53182a58072")
+	)
+	(junction
+		(at 233.68 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55da4d3c-b4a7-4b37-a817-f4165068f7a1")
+	)
+	(junction
+		(at 217.17 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a7aaac-429f-411c-8ee7-e4012767c296")
+	)
+	(junction
+		(at 143.51 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b3183b-3674-4ae0-920a-8770118b63bc")
+	)
+	(junction
+		(at 88.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab192500-de3a-4638-a5b9-2e5f8e4b5028")
+	)
+	(junction
+		(at 80.01 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae03f9ca-4a98-4bfe-84fd-8b3d96c97627")
+	)
+	(junction
+		(at 88.9 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c082131f-dea0-49ef-8dfb-e226529713bc")
+	)
+	(junction
+		(at 154.94 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d781ab51-9fc2-4c72-a6e6-def69cbdef06")
+	)
+	(junction
+		(at 88.9 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da51e99d-003f-4d42-aadc-4f6d2caa1c4b")
+	)
+	(junction
+		(at 194.31 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd890a5-5229-479b-8397-598847302576")
+	)
+	(junction
+		(at 154.94 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd9ce596-c7c8-497c-bb48-3b24ee0a450a")
+	)
+	(junction
+		(at 88.9 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6fc6218-c218-4d18-88e3-10a831a3c409")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0020aa72-869e-43e4-9fa0-7d1da2106cd3")
+	)
+	(wire
+		(pts
+			(xy 80.01 36.83) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0839b8d2-c505-49e0-8c30-343842a32302")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf9b6d8-7be1-44b5-84d6-6e1068248b1f")
+	)
+	(wire
+		(pts
+			(xy 80.01 24.13) (xy 80.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ad5d22-ce0c-4712-bd44-a0f91c131932")
+	)
+	(wire
+		(pts
+			(xy 101.6 172.72) (xy 106.68 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c26c23-6252-4c23-a9ac-12e8f2c72ecd")
+	)
+	(wire
+		(pts
+			(xy 59.69 100.33) (xy 59.69 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d94684-e9f0-4752-a30c-e07cfbe44796")
+	)
+	(wire
+		(pts
+			(xy 138.43 156.21) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a732209-36fe-4c2d-a216-30417410e114")
+	)
+	(wire
+		(pts
+			(xy 49.53 24.13) (xy 80.01 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d51873c-555c-4d51-9715-5bfea613fc35")
+	)
+	(wire
+		(pts
+			(xy 31.75 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ca8999-8637-492a-a844-955ef6bffc62")
+	)
+	(wire
+		(pts
+			(xy 233.68 148.59) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223b36f3-17fd-4c26-8d26-76aa6d9b0a42")
+	)
+	(wire
+		(pts
+			(xy 88.9 36.83) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fde3f7-50c3-48a3-ab65-07cf29aeb424")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3d986b-344c-4e42-beea-300294f73a93")
+	)
+	(wire
+		(pts
+			(xy 143.51 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d80d417-ee97-47b2-a9b5-1be5b7e32629")
+	)
+	(wire
+		(pts
+			(xy 88.9 163.83) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e262746-4363-4036-97c1-aebf1b384d07")
+	)
+	(wire
+		(pts
+			(xy 116.84 129.54) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec19b01-59b2-4bcd-a6cd-119924ffb7fe")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33065329-b697-443e-970d-2ce6cc65a4e0")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352ec4b4-b273-4c59-825b-4dc50bcfb82e")
+	)
+	(wire
+		(pts
+			(xy 31.75 88.9) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b54fba-8d0e-4769-b075-0e9b0e3859b4")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3875dd1a-0688-445d-824d-7ffa59096a1d")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da8e85d-9517-440e-b5d5-c1008ca32e91")
+	)
+	(wire
+		(pts
+			(xy 194.31 137.16) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e34d54d-36fa-4ee8-9188-c3afe01c97e0")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f06707e-3d3b-4e1a-a93f-2323afe0214f")
+	)
+	(wire
+		(pts
+			(xy 217.17 148.59) (xy 233.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42425de8-c81b-4fa0-ac16-8a4fca2d8113")
+	)
+	(wire
+		(pts
+			(xy 233.68 137.16) (xy 251.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4380db81-3d75-4212-a06b-53bddaa7ab0b")
+	)
+	(wire
+		(pts
+			(xy 71.12 102.87) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4471a1f7-4955-41b1-a0ed-35167441965b")
+	)
+	(wire
+		(pts
+			(xy 101.6 139.7) (xy 101.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d6d4b1-15c2-40a7-a504-3453bdb46c5b")
+	)
+	(wire
+		(pts
+			(xy 204.47 137.16) (xy 207.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dd2d9e-49ef-4491-a734-e489fd1b12fe")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e06a4e-baab-4aa6-aaa3-bfce356e3c9d")
+	)
+	(wire
+		(pts
+			(xy 101.6 146.05) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d841db-bbf1-433c-9e45-a35f7edc3c84")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49aed645-54a2-4d04-b57d-770a9ff974d9")
+	)
+	(wire
+		(pts
+			(xy 101.6 166.37) (xy 101.6 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8d0a9a-7ba9-4be1-b729-97b8b41b16c6")
+	)
+	(wire
+		(pts
+			(xy 154.94 182.88) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3df8ec-7098-4b53-bfd5-fb67a791703e")
+	)
+	(wire
+		(pts
+			(xy 116.84 49.53) (xy 130.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e709d24-3242-49ba-9e13-2cf8fab45d22")
+	)
+	(wire
+		(pts
+			(xy 137.16 182.88) (xy 154.94 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5427828a-4bfd-453a-9c62-77069c6aa170")
+	)
+	(wire
+		(pts
+			(xy 233.68 139.7) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2bce3c-1452-4a8f-9eb5-5e57b81e44d3")
+	)
+	(wire
+		(pts
+			(xy 116.84 182.88) (xy 132.08 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4334fc-39ff-4b06-af13-d62e48304a46")
+	)
+	(wire
+		(pts
+			(xy 63.5 156.21) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4b6d42-b095-44bd-accd-58b8d55334c0")
+	)
+	(wire
+		(pts
+			(xy 207.01 142.24) (xy 204.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d93a15-9df9-4dd5-9491-ea0999e9372a")
+	)
+	(wire
+		(pts
+			(xy 88.9 102.87) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6281ce8d-df7c-480b-a933-a43878661abd")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661db70f-2ace-477e-85db-4ff26b979677")
+	)
+	(wire
+		(pts
+			(xy 101.6 193.04) (xy 101.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b916cdf-aaf9-40a7-83ea-0110921e0780")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 154.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c70a061-828e-4e5e-bd94-fec844987fd5")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7002fe81-2ff1-45d0-8da0-0e85a9451707")
+	)
+	(wire
+		(pts
+			(xy 81.28 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a69d90-c1fe-4be3-939c-b0d96e9cd7eb")
+	)
+	(wire
+		(pts
+			(xy 88.9 29.21) (xy 91.44 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722f8e0e-e33a-46a4-bce8-c48e323e5fa8")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 209.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7260e69c-367c-4c02-81d3-bcee4f64e2c4")
+	)
+	(wire
+		(pts
+			(xy 88.9 156.21) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a4e605-72b7-40f8-8fd7-3a7feab96a6f")
+	)
+	(wire
+		(pts
+			(xy 49.53 24.13) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7950a4ed-f299-4c67-a2ff-4cda800f54c1")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 194.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca73c65-99fb-4446-b91d-3f1af17bb4b0")
+	)
+	(wire
+		(pts
+			(xy 31.75 111.76) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802ca0cc-5647-4238-a871-48385d5ebc22")
+	)
+	(wire
+		(pts
+			(xy 88.9 102.87) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abd27f1-f3ee-405d-aa84-a8134dd03595")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d88bc42-72f4-4349-ae28-3353861f50cf")
+	)
+	(wire
+		(pts
+			(xy 154.94 49.53) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc94bdf-6a67-48bb-818e-6c93743fa3c4")
+	)
+	(wire
+		(pts
+			(xy 31.75 123.19) (xy 71.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9016fb7c-0824-4aae-8604-7764e628ca73")
+	)
+	(wire
+		(pts
+			(xy 201.93 57.15) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97936204-5efb-4b6f-bc9e-599ff855681a")
+	)
+	(wire
+		(pts
+			(xy 31.75 100.33) (xy 59.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a011a4-7407-4509-8e94-49067b1f2eec")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09e511d-4290-4289-8874-4d23926bfcc6")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.75) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2800db7-ea69-4437-91b6-12531e041fb9")
+	)
+	(wire
+		(pts
+			(xy 194.31 148.59) (xy 194.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4deaeb9-481a-4195-9116-b18c52de48e8")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cc96e9-708f-4510-ad08-4c960f7da1e3")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7967359-b720-463b-ad4a-dae2c68cb9e2")
+	)
+	(wire
+		(pts
+			(xy 88.9 182.88) (xy 88.9 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94c9517-206b-48c0-afbc-d9e3f8d5f758")
+	)
+	(wire
+		(pts
+			(xy 217.17 147.32) (xy 217.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1ac277-ccf6-4ec2-86dd-c370a968920f")
+	)
+	(wire
+		(pts
+			(xy 31.75 54.61) (xy 38.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4325fa-be72-4ce7-894c-b914de867e47")
+	)
+	(wire
+		(pts
+			(xy 80.01 24.13) (xy 91.44 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bca2d1-4c94-4219-a6d5-030b7b589c5d")
+	)
+	(wire
+		(pts
+			(xy 31.75 146.05) (xy 81.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ae016a-2f81-4be2-a35f-fecf6ef4bd81")
+	)
+	(wire
+		(pts
+			(xy 88.9 110.49) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39b07de-7b02-466e-9a8c-c7cca98b6dd7")
+	)
+	(wire
+		(pts
+			(xy 106.68 16.51) (xy 111.76 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b863e8a4-ff59-45ad-b9fc-7650b2098869")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba819923-37b6-465b-aff9-844491584a19")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be32d177-5ebd-4b5c-a7dd-d69e9fbcb63b")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0515d17-3a83-4cfc-b69f-d1ef475e3904")
+	)
+	(wire
+		(pts
+			(xy 101.6 39.37) (xy 101.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1339709-23d3-49f9-b1f4-1692b0171199")
+	)
+	(wire
+		(pts
+			(xy 162.56 26.67) (xy 162.56 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2136957-af55-49b6-9b19-c1825556d726")
+	)
+	(wire
+		(pts
+			(xy 106.68 36.83) (xy 106.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f1184a-27fa-4bf2-a65f-8edb8d9c1225")
+	)
+	(wire
+		(pts
+			(xy 116.84 156.21) (xy 133.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72b390c-d5d5-4c94-b7f6-e6d4e4aec130")
+	)
+	(wire
+		(pts
+			(xy 143.51 87.63) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8eb698e-77fd-44e9-a08a-22bf5c177536")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0d6615-832b-4eb0-9876-0f1721d065c9")
+	)
+	(wire
+		(pts
+			(xy 194.31 139.7) (xy 194.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12e4bb5-fb7f-4eda-9154-a8e4ff458a54")
+	)
+	(wire
+		(pts
+			(xy 217.17 148.59) (xy 194.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c601b8-7471-463a-a6cd-b408f5024770")
+	)
+	(wire
+		(pts
+			(xy 53.34 29.21) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d983f9-e71a-42c0-adae-f39aa07bd710")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d808105d-6c4b-4197-8641-c88d09b979b2")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84dfc34-67cb-42be-be53-fc80ff7662ff")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e7c500-6d6a-401e-9311-2fdff5e5f239")
+	)
+	(wire
+		(pts
+			(xy 204.47 142.24) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9265533-c969-4eb3-af09-c47d7a581067")
+	)
+	(wire
+		(pts
+			(xy 88.9 182.88) (xy 93.98 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1201be-0f3a-40a1-8fd5-dbb107ab0167")
+	)
+	(wire
+		(pts
+			(xy 101.6 113.03) (xy 101.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab22481-de23-49f1-b98c-6e47a044a1b4")
+	)
+	(wire
+		(pts
+			(xy 88.9 190.5) (xy 88.9 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db193bea-d1fb-47d9-b4c1-9382304dd2e3")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 154.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4ca688-93c1-42ba-ab68-98538a630836")
+	)
+	(wire
+		(pts
+			(xy 53.34 29.21) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de295c75-bdcd-4d22-b558-82cf62e45976")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09155a4-395e-450e-8138-a3dabacedce8")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b967cd-8c59-4045-9729-f1f256e82bfd")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62e0197-2a57-40ad-8cb0-e4baaeb1bf1b")
+	)
+	(wire
+		(pts
+			(xy 217.17 148.59) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b823b2-ef3e-44e9-9acd-a96c38053d16")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e817fe33-c65f-451a-9353-5c456d31b284")
+	)
+	(wire
+		(pts
+			(xy 71.12 129.54) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4779ee-feee-4021-be5d-40b90ebf6d28")
+	)
+	(wire
+		(pts
+			(xy 71.12 123.19) (xy 71.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca1254c-cff8-4bf0-8f5c-a3af450a7078")
+	)
+	(wire
+		(pts
+			(xy 162.56 26.67) (xy 119.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53a5f21-b5ea-49cb-959a-41e9396982b4")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68396f9-dd16-4c37-b5af-c1e282747493")
+	)
+	(wire
+		(pts
+			(xy 31.75 77.47) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b199c7-bd05-4b30-bebf-896d7bde4698")
+	)
+	(wire
+		(pts
+			(xy 59.69 182.88) (xy 88.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa012584-ba4b-46fd-8df9-d0b8fa7114d3")
+	)
+	(wire
+		(pts
+			(xy 227.33 137.16) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc73456-f802-4b78-9d56-6caceb308028")
+	)
+	(wire
+		(pts
+			(xy 81.28 76.2) (xy 81.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc491c4d-432c-4280-a9ce-8c5c9b310322")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcf7e59-0aff-44b0-9c37-599c2ec49fa4")
+	)
+	(wire
+		(pts
+			(xy 88.9 52.07) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2a8d3d-ca0e-4251-8798-ab5c33ba6db9")
+	)
+	(label "G2"
+		(at 38.1 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03f31638-1a56-4a39-b07b-612f32393e36")
+	)
+	(label "GND"
+		(at 106.68 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c6fd841-952a-4e1e-bdb8-f2e27848392f")
+	)
+	(label "GND"
+		(at 88.9 170.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dc6f0b1-9206-4d1c-9169-95ca934fda41")
+	)
+	(label "VCC"
+		(at 106.68 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1673d88e-843b-4c45-b685-f9a59983e2ea")
+	)
+	(label "VCC"
+		(at 111.76 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "176ef95a-12a1-4023-af84-5f4f9dc09a62")
+	)
+	(label "VCC"
+		(at 106.68 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f310ff3-6ee3-4ca4-8069-f6d654ffac58")
+	)
+	(label "GND"
+		(at 88.9 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23d7634c-fefe-4bcc-b2d7-95f37d5e9001")
+	)
+	(label "GND"
+		(at 88.9 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "324ee3cc-55fd-4250-8e86-37abcab6d219")
+	)
+	(label "5V"
+		(at 201.93 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3278fbd2-e7e9-40cf-ac1c-58b3b5b526dd")
+	)
+	(label "VCC"
+		(at 106.68 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "382bcb0e-8e33-4b8f-8ed6-212cfdfb3f1d")
+	)
+	(label "GND"
+		(at 201.93 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ed17bf8-5a8f-4373-b8ea-45ea4b7bbce4")
+	)
+	(label "GND"
+		(at 101.6 170.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4025ff57-757b-4a93-88a0-9a8b5b1be97d")
+	)
+	(label "GND"
+		(at 80.01 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45aee939-7817-4ce3-8c5f-ffc5d6b0345e")
+	)
+	(label "GND"
+		(at 217.17 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a243af8-7451-4707-a14e-66d0daf4a21f")
+	)
+	(label "GND"
+		(at 88.9 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bfe459c-e783-48bf-8b75-a01cecd94e6a")
+	)
+	(label "GND"
+		(at 101.6 196.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59223faa-4dbf-4f2e-b1ef-c5e2302aac72")
+	)
+	(label "GND"
+		(at 38.1 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "683ed21f-e5d3-4f1e-9559-e0c57f7dc48c")
+	)
+	(label "GND"
+		(at 101.6 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a32bca1-0c1e-4417-acc7-5b41a5cc9c3b")
+	)
+	(label "GND"
+		(at 101.6 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d13cc6b-6e95-4828-b8f4-1951e7963eef")
+	)
+	(label "G"
+		(at 201.93 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70c090ad-3b6d-424d-bc3e-da68a459d57d")
+	)
+	(label "B2"
+		(at 38.1 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73c5b923-4613-43ca-8d29-5f7e5ef9c908")
+	)
+	(label "GND"
+		(at 88.9 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77bd941d-5213-404d-8f20-519b5edc2bcb")
+	)
+	(label "VCC"
+		(at 106.68 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7802f678-498d-402f-b366-9c72219bc7eb")
+	)
+	(label "CSYNC"
+		(at 201.93 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b000b5c-84da-475d-8164-00ae34eb7cbd")
+	)
+	(label "B3"
+		(at 39.37 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83717d26-b419-4ffb-b8e5-7eaed75af783")
+	)
+	(label "GND"
+		(at 88.9 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b62fa9c2-e3f5-4a8b-86d3-d481870fe574")
+	)
+	(label "R"
+		(at 201.93 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c51b40b1-a550-4f32-bf2c-a0b1d7eab4d4")
+	)
+	(label "B"
+		(at 201.93 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c738c88b-08f8-49b0-8ac3-fc64f164fa69")
+	)
+	(label "R2"
+		(at 38.1 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c85adc5b-ed90-4b19-8148-1a97e87543aa")
+	)
+	(label "VCC"
+		(at 106.68 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb5572ea-3c69-4eb9-8a50-f3508637d061")
+	)
+	(label "VCC"
+		(at 101.6 34.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cea732db-97ab-4adc-8e7b-61de8db5c45c")
+	)
+	(label "VSYNC"
+		(at 41.91 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9d88688-a35a-46e8-b56c-85babb462f2a")
+	)
+	(label "HSYNC"
+		(at 41.91 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da279f37-c99b-4751-a44d-eba960087081")
+	)
+	(label "GND"
+		(at 101.6 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dff5198b-5a3f-47b4-aa1b-36bd816ab79d")
+	)
+	(label "GND"
+		(at 101.6 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e145ae2b-8dbc-467c-bbb4-cfe8d1439b5c")
+	)
+	(label "G3"
+		(at 38.1 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e176da86-f2da-4144-8919-8f6bfe5f304f")
+	)
+	(label "GND"
+		(at 88.9 196.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e99ba16d-6ce4-4e7d-9ba5-da0eda879bc6")
+	)
+	(label "VCC"
+		(at 251.46 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed2afb7d-17a0-4bd6-b834-4c3d2ac4d40d")
+	)
+	(label "R3"
+		(at 38.1 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffce1418-84a3-4ba3-8e03-8eca866d3a1d")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "006c091e-ea60-45e0-ad47-01651e7f6edd")
+		(property "Reference" "R6"
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 134.62 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29f3b2e-4805-47e0-b3e1-3fb81c8ef9ba")
+		)
+		(pin "2"
+			(uuid "8ad56a37-b67b-49fa-9c39-21c0df3d5729")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 214.63 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087aae99-cf21-4041-b733-b1c20577e5f7")
+		(property "Reference" "JOUT3"
+			(at 217.17 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c435cdf-f60a-4543-8d23-6ba5b3238356")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JOUT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dea2b41-29a9-42c0-8090-9d340efdc60b")
+		(property "Reference" "JIN9"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59be415d-2f65-4ac0-bb85-c4cd63ae1470")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14966d06-9c1c-4ab3-b0d9-5f1e6941a13a")
+		(property "Reference" "R12"
+			(at 91.44 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e37ee70d-dd32-492b-b6e3-d42248400457")
+		)
+		(pin "2"
+			(uuid "91d0750e-0bae-48d7-8b32-24dc2e9f4f6f")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19fa4bc8-9d3d-4dd7-bfb1-519782812eba")
+		(property "Reference" "JIN5"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f904cb0-30e5-4200-b7b7-42cdd47a02d1")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c90e74a-0f9a-468c-98f1-130ed13c8668")
+		(property "Reference" "JIN3"
+			(at 26.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d01947a-0ad7-41fe-bf03-caaa974c37aa")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 80.01 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d735e86-105c-49c2-b640-0604c580dfa1")
+		(property "Reference" "R7"
+			(at 82.55 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 82.55 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "602141da-368b-40c4-bd79-4d91f50ed450")
+		)
+		(pin "2"
+			(uuid "0feb2877-c2c3-4768-a0be-b2303da827a9")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 214.63 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a852fe-3d82-435b-9abb-0a94e57729aa")
+		(property "Reference" "JOUT5"
+			(at 217.17 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e625f16d-75c9-478d-b9ac-c19addb1edbb")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JOUT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "281b76f9-0b13-4995-9936-5307d81b0ad0")
+		(property "Reference" "R11"
+			(at 91.44 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc086bdb-a8cf-4673-9be2-8ae0768b6aad")
+		)
+		(pin "2"
+			(uuid "03e1e5b2-580c-41b2-afb3-fe46eacaefc7")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 214.63 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28485d44-f576-41dd-bba9-2239aaba8945")
+		(property "Reference" "JOUT6"
+			(at 217.17 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77152d30-925a-4f42-a883-0ca9f54b9b1b")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JOUT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e66c357-d94f-4746-8e51-3505d337c2a9")
+		(property "Reference" "R2"
+			(at 133.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 133.35 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71cc075a-ae4a-403b-afd6-567e48e3044f")
+		)
+		(pin "2"
+			(uuid "bc228977-959c-4798-bce2-aa27c4bf4f19")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G17")
+		(at 106.68 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5a1d49-8087-454d-96f8-07f3de9dd348")
+		(property "Reference" "U4"
+			(at 118.11 123.2214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 118.11 125.7614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ffedfafd-853b-497c-8452-8702516c2849")
+		)
+		(pin "3"
+			(uuid "b143bcea-bebf-4b89-ab12-5f5256bd3726")
+		)
+		(pin "2"
+			(uuid "50cdf8b2-0946-4673-85e7-064cbcb7459b")
+		)
+		(pin "1"
+			(uuid "541a7295-35c7-4060-a3ea-0323aa89522f")
+		)
+		(pin "5"
+			(uuid "1973c5fd-c5f9-4e52-9044-feabe52e5603")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57661381-1678-477b-bab2-923ff702c6b5")
+		(property "Reference" "JIN1"
+			(at 26.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f74b3d8-178d-4fa8-9839-9e8ca1cb646d")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69ce3ae2-986b-4d09-ba27-ccbea2618da1")
+		(property "Reference" "R8"
+			(at 91.44 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b5f6ca3-825a-47ec-8950-4250b843b0cf")
+		)
+		(pin "2"
+			(uuid "82b9dccc-2c2b-40eb-b474-b32636e53463")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G86")
+		(at 106.68 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd4fd1c-0eb6-4d6d-b029-652c7720331d")
+		(property "Reference" "U7"
+			(at 118.11 20.3514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G86"
+			(at 118.11 22.8914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb4da25-86fa-4b42-83b8-223b7fd7cac3")
+		)
+		(pin "4"
+			(uuid "566e3143-c274-455d-a216-6af58e870ce6")
+		)
+		(pin "5"
+			(uuid "eac30dee-d609-4ab7-bde5-a527bc7b61bb")
+		)
+		(pin "2"
+			(uuid "182956a1-dafe-4eea-862f-bf69dc474a65")
+		)
+		(pin "3"
+			(uuid "ab5df743-5876-486c-bf52-d9c3bd28d053")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc14bc7-ded5-43c0-8545-1165e97b3b09")
+		(property "Reference" "R4"
+			(at 134.62 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 134.62 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a7db775-47be-4388-b90e-3a58b14c5c4b")
+		)
+		(pin "2"
+			(uuid "235d2956-4633-469b-aaac-6d8560f82a4f")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d2a9ea-3b8c-4c73-8ee1-6fadbd8c62fc")
+		(property "Reference" "R3"
+			(at 134.62 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 134.62 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62dc6e0e-013c-4ad9-9bac-b2a4f38a5db6")
+		)
+		(pin "2"
+			(uuid "2091225c-43f7-41ef-9c14-82057aea5008")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
+		(at 217.17 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af1112b-924f-4fa1-b363-0a3ab5a116d6")
+		(property "Reference" "U8"
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5504-3.3YM5"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "52df1b7c-a2c7-4a91-b26b-0b7bb19f8227")
+		)
+		(pin "4"
+			(uuid "d66e4e8e-5c34-4ece-b80f-f14944511b89")
+		)
+		(pin "2"
+			(uuid "a34c060f-401c-48b2-ad39-5ef8e7cbcfc6")
+		)
+		(pin "1"
+			(uuid "a233945d-53cd-478c-8c2d-8a0ba3dc7393")
+		)
+		(pin "3"
+			(uuid "da6e4949-461f-4dac-bc2b-cb2478f008c7")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G17")
+		(at 106.68 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b110466-d96c-407e-a75d-1c5116800c96")
+		(property "Reference" "U5"
+			(at 118.11 149.8914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 118.11 152.4314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 106.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95f39e66-4eca-45e6-aab4-b7c10483a185")
+		)
+		(pin "2"
+			(uuid "421b6a05-d351-445d-ae44-a431ce6e6459")
+		)
+		(pin "1"
+			(uuid "53fdaac6-41e6-487b-8d02-da05c3e32bcc")
+		)
+		(pin "4"
+			(uuid "a1751607-8a3f-429f-b6c7-38838d1d89e3")
+		)
+		(pin "5"
+			(uuid "2d3d8658-1181-4112-b894-af30755aa72c")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db2e8d9-b521-411a-a393-1dbb9b3d2507")
+		(property "Reference" "JIN7"
+			(at 26.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396acd4f-8e53-4d77-a440-363aeddd0c45")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f54012c-768a-4e9b-921a-81278df51837")
+		(property "Reference" "C2"
+			(at 236.22 140.9635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 143.5035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac9c7c8a-905f-47c9-bae7-cc7ddbfa2da3")
+		)
+		(pin "1"
+			(uuid "f8ade1c0-ea18-4834-9870-5cb509e431a2")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fbbf17e-fc30-479c-8db9-9f4d02aca455")
+		(property "Reference" "JIN4"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c44873b-1865-4873-a15d-187629d4b3bc")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25fb1f5-9950-4094-aefe-64cbb5b6c42f")
+		(property "Reference" "JIN2"
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75755fd8-cadc-49b3-9f63-0a304313a0b4")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76c129a-24ba-4556-83fc-e86492f053ec")
+		(property "Reference" "C1"
+			(at 196.85 140.9635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 196.85 143.5035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25a23922-ab6a-4456-b4e0-062b2d89f856")
+		)
+		(pin "1"
+			(uuid "96161b5b-851a-4aea-af43-1689e1f55157")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b08a60c1-0590-4d61-9631-ce1f5e1e1443")
+		(property "Reference" "R13"
+			(at 91.44 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d005eaf-4cd7-4a1b-abd2-8418a0e7156c")
+		)
+		(pin "2"
+			(uuid "cd84154c-7af9-4f99-a0b8-6744a52ad3a9")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 214.63 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a49b06-b7b9-4fa0-bbec-4bc5c5de6d5e")
+		(property "Reference" "JOUT4"
+			(at 217.17 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 214.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c7a20e-4407-4f8a-b261-b7caf704ce27")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JOUT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b858d2c2-d273-42da-a2c5-d8aa9e5fb438")
+		(property "Reference" "R1"
+			(at 133.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 133.35 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d53e4d-b881-4f63-aa0f-4128b3c85778")
+		)
+		(pin "2"
+			(uuid "9df35b8d-f65f-406f-9543-0d52a367ab74")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1c5ad27-5aee-4ebf-8acc-386539a0a57c")
+		(property "Reference" "JIN8"
+			(at 26.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "930f4ce9-a4b3-4819-9316-abfd376b3eee")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 214.63 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8fc6d50-ce1b-4dc5-8a4b-9fddd6a810d4")
+		(property "Reference" "JOUT2"
+			(at 217.17 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a23cb63-7a6e-430a-a2db-f1b26228397b")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JOUT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 214.63 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d308d849-6543-4b91-a51b-37263899bae1")
+		(property "Reference" "JOUT1"
+			(at 217.17 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0b47b0-4ee8-4407-89ce-f6c16aec7e84")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JOUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deb59671-7a5a-4d32-a3e6-aab1006ab76d")
+		(property "Reference" "R14"
+			(at 91.44 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be0e6b36-0e43-41c5-9395-3b477da700fb")
+		)
+		(pin "2"
+			(uuid "5937ca25-b279-4123-b892-54e3534b6a0f")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G17")
+		(at 106.68 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e348d026-3d86-41fc-8f7e-5f01633892ef")
+		(property "Reference" "U6"
+			(at 118.11 176.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 118.11 179.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 106.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed42c1ca-69bd-4e18-9e8d-d2c89f602b4e")
+		)
+		(pin "3"
+			(uuid "c8ef6c2a-88d2-4083-8112-aefce8f40698")
+		)
+		(pin "2"
+			(uuid "d33b07fb-8f4e-4e79-865e-82c3d7e324aa")
+		)
+		(pin "1"
+			(uuid "b3624703-5085-4029-9fb8-a2cf331c5ea4")
+		)
+		(pin "5"
+			(uuid "4e2d7029-c088-4ef1-9d1e-0df68088f9e9")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G17")
+		(at 106.68 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e86e6f43-a039-4147-964a-db61ec7ae330")
+		(property "Reference" "U3"
+			(at 118.11 96.5514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 118.11 99.0914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3c9e97f2-f882-49e8-9a6d-812520b169b8")
+		)
+		(pin "2"
+			(uuid "4e26481c-adb3-4838-9e5d-e6cd858240e2")
+		)
+		(pin "1"
+			(uuid "ddceee4c-9680-4082-b2ea-8080a222494d")
+		)
+		(pin "4"
+			(uuid "f97e0ebd-1972-4448-9c9c-418c96addda5")
+		)
+		(pin "5"
+			(uuid "d667af3a-1f82-4502-8b24-bd379eb995c7")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecaf8938-c237-49ce-910b-258f57f1cd66")
+		(property "Reference" "JIN6"
+			(at 26.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_2.5x1.5mm"
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ffad0a0-5e5a-4e79-b85b-c1b253ccde0d")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "JIN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2800da0-3b8a-490d-a804-0fc78630bd6e")
+		(property "Reference" "R9"
+			(at 91.44 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae01df28-a053-4bd4-bb04-47e0a472f01d")
+		)
+		(pin "2"
+			(uuid "a08a4478-1ed6-45c9-9436-a43a9ed570bb")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G17")
+		(at 106.68 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e71e15-5c70-4f82-8fdb-8c18348cfcab")
+		(property "Reference" "U1"
+			(at 118.11 43.2114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 118.11 45.7514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "23a33f89-fad9-431b-80b2-7695fce63650")
+		)
+		(pin "2"
+			(uuid "838bc038-a1e4-469a-9fb7-ec8155451b72")
+		)
+		(pin "1"
+			(uuid "c18f662a-bb4a-4ef8-a40f-24754f53a935")
+		)
+		(pin "4"
+			(uuid "3911c700-141b-46ee-99ba-93e45961e8fd")
+		)
+		(pin "5"
+			(uuid "27bbc097-c7fb-42a3-b9a5-95e17b4bc03f")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f541994b-0b8b-48a4-9a71-3a6f9366116f")
+		(property "Reference" "R10"
+			(at 91.44 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 91.44 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "badfb322-9af8-443f-b64d-5a6032587b72")
+		)
+		(pin "2"
+			(uuid "71bc803e-8a4e-4c7e-8d77-48093dada4ae")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G17")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa7cd3c7-352c-415a-86a2-a6b0f2558386")
+		(property "Reference" "U2"
+			(at 118.11 69.8814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 118.11 72.4214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "27ff702b-975a-41fc-aa6b-88bbe15e67e4")
+		)
+		(pin "3"
+			(uuid "fa264900-63c6-4d0e-b3bc-57b56b0b3bc1")
+		)
+		(pin "2"
+			(uuid "be148d90-26f1-4941-a88c-db51f0d22e8a")
+		)
+		(pin "1"
+			(uuid "40f6095b-f06d-4e8c-94bc-619fa8c05798")
+		)
+		(pin "5"
+			(uuid "2604d2d0-7b00-46cf-876e-1a6359467a71")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef312db-4f25-4646-8a17-c456b080dea2")
+		(property "Reference" "R5"
+			(at 135.89 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 135.89 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e317285-2ca3-43b5-bcf9-e53a8ad3456d")
+		)
+		(pin "2"
+			(uuid "de61cfb8-c773-47e7-bbc3-162261073dfc")
+		)
+		(instances
+			(project "digitaladapter"
+				(path "/5509fd3c-b8a5-4769-a626-e18d5b4369b8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

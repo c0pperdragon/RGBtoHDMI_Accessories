@@ -1,0 +1,145 @@
+(footprint "IDC_PCB_mount_6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "momentary / push-push button, h=13mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf")
+	(tags "tact sw push PVA2 DPDT")
+	(property "Reference" "REF**"
+		(at 0.7 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "f6ee98b5-4773-4eeb-a825-33c1705abace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IDC_PCB_mount_6"
+		(at 0.5 3.8 0)
+		(layer "F.Fab")
+		(uuid "5994a946-119f-4db4-aafe-00ae73b5b800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.5 -0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f847b47f-6b24-4df1-907e-1aa334bf150b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.5 -0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4e119c8-fc77-4621-8ae6-56ea324b4336")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.5 -0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61d6dfc2-724a-4500-a0f8-4ad2b0cc907d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.8 2)
+		(end -7.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac2ac1a8-ddfc-4408-a58b-ba28b271ca74")
+	)
+	(fp_line
+		(start 7.5 2)
+		(end 3.8 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0142029-1e37-47a0-9e6c-2d5e22f44309")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -4.7 0)
+		(layer "F.Fab")
+		(uuid "be0953c0-632d-4dd2-85e9-4d41239f22d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 0)
+		(size 2 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "c5a1761e-3391-4e74-90c9-947fd66e1fc6")
+	)
+	(pad "2" smd rect
+		(at -2.54 0)
+		(size 2 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3dd05e0a-6fe4-4de6-81df-97b26be40fb4")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 2 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "681bd495-c396-44ce-92bd-4b397cd48c04")
+	)
+	(pad "4" smd rect
+		(at 0 0)
+		(size 2 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b680b4a7-6cb0-40b5-a7ec-a02910a0daa4")
+	)
+	(pad "5" smd rect
+		(at 2.54 0)
+		(size 2 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "fcb90f38-f221-4e19-8961-a534ced69fbc")
+	)
+	(pad "6" smd rect
+		(at 2.54 0)
+		(size 2 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a1c7b1f5-f895-4192-9484-2357882c73e0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Push_2P2T_Toggle_CK_PVA2OAH5xxxxxxV2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

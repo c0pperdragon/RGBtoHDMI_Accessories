@@ -1,0 +1,2135 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e23bf0d1-b9ff-4a53-82c4-b11013e978c6")
+	(paper "A4")
+	(title_block
+		(title "Switch box")
+		(rev "2")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DPDT_x2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0201eada-e09a-4b0a-a813-68be1cc154d2")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bba4e55-0301-47b9-b90b-0829acd24845")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12463d96-d29e-4bca-aa71-116b804bf869")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 118.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e1a239-5c6f-4157-8eb1-355b70f91cd4")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1e0fb0-890d-453f-956f-4e5cdf916d45")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1dd12d-cb37-4770-8055-932bfc4590c2")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.41) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e2b103-389c-44db-9605-09433563a017")
+	)
+	(wire
+		(pts
+			(xy 156.21 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc8e3b5-495d-4bfe-af61-3d28d9da6c46")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4943db07-325a-4694-ae82-81c69cd6f578")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d278571-02e2-4fc2-a554-0096dadcabd1")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5028abd6-294f-4b6f-87bf-89017c3875bc")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509c3836-8973-4c09-a4b1-c547028ece03")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5938ed75-6bb7-4e86-a962-823d229e882e")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf7d9aa-ed99-4cd0-a568-594c7aa12ba9")
+	)
+	(wire
+		(pts
+			(xy 77.47 113.03) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e51d3ee-f2c4-4ef3-bf15-9578f7c92ee9")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68078f0f-df8e-4655-88dc-f391961814ae")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757feeb8-483e-44fc-8043-edb48c916f20")
+	)
+	(wire
+		(pts
+			(xy 77.47 80.01) (xy 82.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7772ccba-7895-4421-8b3f-672955ffe723")
+	)
+	(wire
+		(pts
+			(xy 77.47 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa3a595-3f33-4c69-9b21-32ca067d807c")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d73c8dd-095b-4af3-bac8-e5283345f78e")
+	)
+	(wire
+		(pts
+			(xy 111.76 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a4377f-91d8-4f82-9797-093a4836254f")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d16b7e0-d31b-42b9-b1c4-5f8dc0adbba4")
+	)
+	(wire
+		(pts
+			(xy 148.59 120.65) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adecb544-c354-40f6-b39f-488752873712")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26ee416-99d5-4684-b2be-e5da76a2ce94")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8c544e-ab70-46ae-b020-5518151a4af8")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c023f52d-c222-4762-a6aa-9cbe053fc8a1")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 162.56 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19fcfbd-f964-49f5-bd67-292efd152b52")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd395e78-2c74-4ce2-b737-bd7b737c3fb5")
+	)
+	(wire
+		(pts
+			(xy 77.47 77.47) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deff8593-b0bb-4637-8e61-9489bad8893b")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfaaca89-4e54-4ce9-902f-bbf51deaa39b")
+	)
+	(wire
+		(pts
+			(xy 111.76 64.77) (xy 118.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ae4daf-862e-4f8e-b425-e731b2ca5668")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb436c2a-1a52-4e6b-b5a1-78a4a1e7380d")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a10505-4364-4d23-9600-b0a9fe0b3a6f")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a1f326-5ddb-4084-a5ed-bcb8b0a5e964")
+	)
+	(label "R1"
+		(at 77.47 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10089df8-d2ec-4f4e-8ab7-4ea35812eb25")
+	)
+	(label "G1"
+		(at 99.06 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2494e823-287a-4526-8fdb-ecda96c67a74")
+	)
+	(label "G2"
+		(at 99.06 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2dde949c-f51c-40c7-9416-e22745b35705")
+	)
+	(label "S1"
+		(at 111.76 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44d7008f-a2cb-4ebd-a40c-bf6ed6336784")
+	)
+	(label "S2"
+		(at 111.76 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eadd727-b0ea-4418-a9b2-df606622407f")
+	)
+	(label "B2"
+		(at 77.47 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b30a47c-372e-4cf2-bcfe-951b07751854")
+	)
+	(label "RED"
+		(at 156.21 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6311b0fa-1447-49e4-87dc-a23d28c3bd2e")
+	)
+	(label "5V"
+		(at 99.06 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65f3aaa5-2498-4a38-a27b-7d04d39b42b8")
+	)
+	(label "BLUE"
+		(at 156.21 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e7568ca-47e5-4026-8407-24e278d31512")
+	)
+	(label "GND"
+		(at 77.47 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e786fee-bf64-416b-83ff-cfcf506490f0")
+	)
+	(label "GREEN"
+		(at 156.21 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7072af99-c6cc-49ae-91d3-652eefa4cd54")
+	)
+	(label "R1"
+		(at 111.76 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "759033b4-a3f2-4b8c-be6e-c7931bdb2b0f")
+	)
+	(label "5V"
+		(at 156.21 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78695f4d-0e5e-4439-94d3-a806dc849544")
+	)
+	(label "G1"
+		(at 111.76 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "786cfff2-39d8-4bd7-b0a5-83329a87facf")
+	)
+	(label "G2"
+		(at 111.76 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79747d04-970f-4b7f-9482-7dcbf73231b2")
+	)
+	(label "S1"
+		(at 99.06 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81a0e0ae-dffb-4f91-ae43-f5f72759fea0")
+	)
+	(label "GND"
+		(at 77.47 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a90219b2-0819-4026-ad79-489937708667")
+	)
+	(label "B1"
+		(at 111.76 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae865b58-6f6c-4d97-93db-0c67453540b1")
+	)
+	(label "B1"
+		(at 77.47 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b102029f-f295-4ed8-8d7a-94b9ed8b146f")
+	)
+	(label "S2"
+		(at 99.06 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba954657-d51c-4bf7-9742-d5e7663302b6")
+	)
+	(label "R2"
+		(at 77.47 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb202bf0-c002-488c-91b0-1127e950c134")
+	)
+	(label "SYNC"
+		(at 156.21 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d23ea539-d9de-4bc2-b6b5-ee735f050fb1")
+	)
+	(label "B2"
+		(at 111.76 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e72d13b0-339b-4236-a6f3-71cd6b16cec3")
+	)
+	(label "5V"
+		(at 99.06 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8839d63-8713-4ef2-8c35-0db65f451537")
+	)
+	(label "R2"
+		(at 111.76 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8fe0539-b398-4c26-9002-b4e7024e5408")
+	)
+	(label "GND"
+		(at 156.21 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd3c5023-2a24-4eeb-af56-4a63afc2d76e")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 167.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173ab932-3aa0-4c59-b1be-0d38837cf07b")
+		(property "Reference" "JOUT1"
+			(at 170.18 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 170.18 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x2.5mm"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738c02b1-6381-415a-93f8-92e2f1318783")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JOUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 167.64 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "434c0c45-e61c-4987-be3a-7d85a22322fd")
+		(property "Reference" "JOUT2"
+			(at 170.18 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 170.18 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x2.5mm"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a7178a3-f5bd-48de-91b1-d6936eec2016")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JOUT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 167.64 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52da90d5-9a02-4ffb-a4b2-68599e8b9080")
+		(property "Reference" "JOUT6"
+			(at 170.18 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 170.18 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x2.5mm"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d190e9d-ef75-44a0-b8c8-8e6a2c320a75")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JOUT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 123.19 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79bbf702-add6-4e4d-9fdf-7658603e42fd")
+		(property "Reference" "SW1"
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:OS202011MS2QN1"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1bf598dd-3ec8-4095-9d88-ad3183081ed5")
+		)
+		(pin "6"
+			(uuid "c786b6e1-b019-42ad-bd5d-26a084da9929")
+		)
+		(pin "1"
+			(uuid "efaa5a83-bc48-4433-b5e6-4bbd908a0bce")
+		)
+		(pin "3"
+			(uuid "d1d4b334-64a9-4230-8166-ee9d65a32ffa")
+		)
+		(pin "2"
+			(uuid "9835009b-1ab6-4518-8e48-d57142bd8b0e")
+		)
+		(pin "5"
+			(uuid "0d678a90-fdb9-42fd-8090-557d4e470dea")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 87.63 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d7f365c-48b7-4df0-977e-ee9715aa8628")
+		(property "Reference" "JIN1"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:IDC_PCB_mount_6"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "976defee-2622-48ef-a245-b0336996f0dc")
+		)
+		(pin "6"
+			(uuid "3b0d23c2-9579-4861-a4af-cedf7bd79455")
+		)
+		(pin "3"
+			(uuid "ff61a3e3-23f9-4b89-a0fa-c1e0490917b8")
+		)
+		(pin "4"
+			(uuid "a471365b-6c1c-4f30-8f2a-ce966b3da3a0")
+		)
+		(pin "1"
+			(uuid "14fb48fb-234a-4906-ad7e-2175eef46893")
+		)
+		(pin "2"
+			(uuid "858fa694-16bf-4a30-af9d-e9d9b88457c5")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 123.19 120.65 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "931a09e0-4879-48f2-8f40-629590932f8a")
+		(property "Reference" "SW2"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:OS202011MS2QN1"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c8675bfc-6f2f-4dae-aa2e-4fa8a92fa052")
+		)
+		(pin "6"
+			(uuid "73eff33f-5472-4e08-9774-e2df95eb1864")
+		)
+		(pin "1"
+			(uuid "efaa5a83-bc48-4433-b5e6-4bbd908a0bcf")
+		)
+		(pin "3"
+			(uuid "d1d4b334-64a9-4230-8166-ee9d65a32ffb")
+		)
+		(pin "2"
+			(uuid "9835009b-1ab6-4518-8e48-d57142bd8b0f")
+		)
+		(pin "5"
+			(uuid "5d8c5962-a9c1-4bff-bcad-5304b0e4a9f0")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 167.64 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9639e49a-5d48-4a18-89d7-161e44c2c452")
+		(property "Reference" "JOUT4"
+			(at 170.18 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 170.18 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x2.5mm"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc3aeede-fd10-4838-a741-02f1fa6d969f")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JOUT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 167.64 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b7471a-027a-4bbc-b5d6-aaf43ddd035f")
+		(property "Reference" "JOUT5"
+			(at 170.18 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 170.18 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x2.5mm"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd1d8c8e-a78f-4eeb-9a8b-e100f0f2c25f")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JOUT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 167.64 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8590ad-2652-41d6-b942-03f9c7b0098f")
+		(property "Reference" "JOUT3"
+			(at 170.18 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 170.18 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x2.5mm"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ecead9c-98ff-4696-92ae-4f58af62ce6c")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JOUT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 123.19 85.09 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a18d1db1-6268-4662-a40e-7e9b81f07f93")
+		(property "Reference" "SW1"
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:OS202011MS2QN1"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1bf598dd-3ec8-4095-9d88-ad3183081ed6")
+		)
+		(pin "6"
+			(uuid "c786b6e1-b019-42ad-bd5d-26a084da992a")
+		)
+		(pin "1"
+			(uuid "efaa5a83-bc48-4433-b5e6-4bbd908a0bd0")
+		)
+		(pin "3"
+			(uuid "d1d4b334-64a9-4230-8166-ee9d65a32ffc")
+		)
+		(pin "2"
+			(uuid "9835009b-1ab6-4518-8e48-d57142bd8b10")
+		)
+		(pin "5"
+			(uuid "0d678a90-fdb9-42fd-8090-557d4e470deb")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "SW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 123.19 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e440a4b0-c2ae-4ae2-9aa9-31b6228bc69a")
+		(property "Reference" "SW2"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:OS202011MS2QN1"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1bf598dd-3ec8-4095-9d88-ad3183081ed7")
+		)
+		(pin "6"
+			(uuid "c786b6e1-b019-42ad-bd5d-26a084da992b")
+		)
+		(pin "1"
+			(uuid "62e237ec-725e-43f1-98c4-8ae54886248d")
+		)
+		(pin "3"
+			(uuid "e84ae99e-ce26-4a47-84de-25019c7031d3")
+		)
+		(pin "2"
+			(uuid "fd50623d-686a-44a1-b8f9-bec55687d557")
+		)
+		(pin "5"
+			(uuid "0d678a90-fdb9-42fd-8090-557d4e470dec")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 87.63 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f283fc9b-e1dd-4e39-8c9d-3c6f3afe7b7b")
+		(property "Reference" "JIN2"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:IDC_PCB_mount_6"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e81df58c-2e55-41af-91f4-2a439f7d6cd9")
+		)
+		(pin "6"
+			(uuid "9d19aac6-b7c7-423f-9ddb-fe45005a521f")
+		)
+		(pin "3"
+			(uuid "34fccc1c-2a81-4fd6-8245-619357db85f3")
+		)
+		(pin "4"
+			(uuid "201cebe9-a3eb-4872-a01c-a66b59f2ea33")
+		)
+		(pin "1"
+			(uuid "0043b10c-ad13-4733-add2-3a82941aaf96")
+		)
+		(pin "2"
+			(uuid "32677650-d719-4c42-9dee-2290fccd85c3")
+		)
+		(instances
+			(project "switchbox"
+				(path "/e23bf0d1-b9ff-4a53-82c4-b11013e978c6"
+					(reference "JIN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
