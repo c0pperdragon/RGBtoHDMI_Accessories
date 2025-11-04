@@ -12,5 +12,5 @@ by the RGBtoHDMI, one small modification is necessary to the analog board.
 
 Until the offical RGBtoHDMI software directly provides working profiles, you need to 
 add the files from 
-[this archive](/db9toanalog_extrafiles.zip)
+[this archive](db9toanalog_extrafiles.zip)
 to the installation.
