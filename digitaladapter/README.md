@@ -10,3 +10,7 @@ For its active circuitry to work, it needs to draw a small amount of power
 from the +5V pin of the 6-pin IDC connector. As this is normally not supported
 by the RGBtoHDMI, one small modification is necessary to the analog board.
 
+Until the offical RGBtoHDMI software directly provides working profiles, you need to 
+add the files from 
+[this archive](/db9toanalog_extrafiles.zip)
+to the installation.
