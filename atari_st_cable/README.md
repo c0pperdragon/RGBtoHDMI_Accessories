@@ -3,7 +3,7 @@
 This cabling can be used to plug an Atari ST running in monochrome
 mode into the Analog RGBtoHDMI.
 
-## Wiring the video
+## Wiring video
 
 | RGBtoHDMI 6 way IDC | 13 way DIN  | Notes
 | ------------------- | ----------- | ---------------------------
@@ -17,7 +17,8 @@ mode into the Analog RGBtoHDMI.
 ## Wring audio (optional)
 
 When you need to also access the analog audio that comes from the A/V connector,
-you can take the mono audio signal from pin 1 of the 13 way connector.
+you can take the mono audio signal from pin 1 of the 13 way connector. 
+Together with the GND from pin 13, this could be wired to some 3.5mm jack or similar.
 
 ## RGBtoHDMI profile
 
