@@ -1,0 +1,6 @@
+sampling=4,4,4,4,4,4,4,0,1,0,5,0,0,0,0,0,0,7,0,0,193,39,193,39,116,116,116,116
+geometry=176,65,640,200,640,200,1,2,1,2,16000000,1016,4500,320,5,0,0
+palette=RGBI_(CGA)
+palette_control=2
+integer_aspect=2
+integer_scaling=0
