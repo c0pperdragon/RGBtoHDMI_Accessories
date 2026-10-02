@@ -1,0 +1,7 @@
+sampling=4,4,4,4,4,4,4,0,1,0,5,0,0,0,0,0,0,7,0,0,193,39,193,39,116,116,116,116
+geometry=176,34,640,200,768,240,2,5,1,1,16000000,1016,500,264,5,0,0
+palette=RGBI_(CGA)
+audio_mode=1
+palette_control=2
+integer_aspect=2
+integer_scaling=0
